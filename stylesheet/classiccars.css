@@ -1,0 +1,582 @@
+body
+	{
+	margin-left: 0%;
+   	margin-right: 0%;
+	margin-top: 0%;
+	background: 	#FAF8F8; 						/*Used to be #BBE09F*/;
+	font-family: Verdana, Helvetica, sans-serif;
+	}
+	
+h2, h3
+	{
+	color: #C30;
+	margin-left: 0px;
+	padding: 0px
+	}
+	
+div.mainDiv
+	{
+	margin-left: 25%; 
+	margin-right: 25%; 
+	background: #FAF8F8;
+	}
+	
+div.mainDiv2
+	{
+	margin-left: 25%; 
+	margin-right: 3%; 
+	background: #FAF8F8;
+	}
+	
+div.minorDivOne
+	{  								/*Left-Hand Side Top -- The Movies*/
+	position: absolute; 
+	top: 103px;
+	left: 0px;
+	width: 22%;
+	background: #BBE09F;				/*used to beFAF8F8*/
+	}
+	
+div.minorDivOneLHS
+	{  					/*Panel--The Movies*/
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	width: 22%;
+	background: #BBE09F;/*used to beFAF8F8*/
+}
+
+div.minorDivOneLHStwo
+	{  					/*Panel--The Movies*/
+	position: absolute; 
+	top: 353px;
+	left: 0px;
+	width: 22%;
+	background: #BBE09F;/*used to beFAF8F8*/
+	}
+
+div.minorDivTwo 
+	{					/*Right-Hand Side Top--Classic Cars */				
+	position: absolute;
+	top: 103px;
+	right: 0px;
+	width: 22%;
+	background: #FAF8F8;
+	}
+	
+div.minorDivTwoLHS 
+	{					/*Panel--Classic Cars--*/				
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 22%;
+	background: #FAF8F8;
+	}
+
+div.minorDivThree
+	{  					/*Left-Hand Side Bottom--Performance*/
+	position: absolute; 
+	top: 553px;
+	left: 0px;
+	width: 22%;
+	background: #FAF8F8;
+	}
+	
+div.minorDivThreeLHS
+	{  					/*Panel-Performance*/
+	position: absolute; 
+	top: 353px;
+	left: 0px;
+	width: 22%;
+	background: #FAF8F8;
+	}
+	
+div.minorDivThreeLHStwo
+	{  					/*Panel-Performance*/
+	position: absolute; 
+	top: 703px;
+	left: 0px;
+	width: 22%;
+	background: #FAF8F8;
+	}
+	
+div.minorDivFour
+	{					/*Right-Hand Side Bottom--TimeLine*/				
+	position: absolute;
+	top: 553px;
+	right: 0px;
+	width: 22%;
+	background: #FAF8F8;
+	}
+
+	
+div.minorDivFourLHS
+	{					/*Panel--TimeLine*/				
+	position: absolute;
+	top: 703px;
+	left: 0px;
+	width: 22%;
+	background: #FAF8F8;
+	}
+	
+div.footerDiv  
+	{
+	margin-right: 0%;
+	margin-left: 0%;
+	height: 40px;
+	padding: 15px;
+	background: #7DD5B9;
+	border-top: 3px solid Red;/*used to be aa0055*/
+	}
+	
+div.pageHeader
+	{ 
+	position: relative;
+	background: #7DD5B9;/*used to be #9cd8cd*/
+	height: 100px;
+	border-bottom: 3px solid Red;/*used to be aa0055*/
+	}
+	
+
+h1#welcomeBanner 			 										/*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/animWelcomeToCC.gif') no-repeat; 	/*This is an animated Welcome to gif image*/
+	margin: 0;
+	height: 70px;
+	width: 400px;
+	position: absolute;
+	top: 2px;
+	left: 70px;
+	}
+	
+h1#classicCarsBanner 			 								/*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/animClassicCars.gif') no-repeat; 	/*This is an animated Classic Cars gif image*/
+	margin: 0;
+	position: absolute;
+	height: 70px;
+	width: 260px;
+	top: 2px;
+	left: 130px;
+	}
+	
+h1#movieCarsBanner 			 									/*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/animMovies.gif') no-repeat; 			/*This is an animated Movie Cars gif image*/
+	margin: 0;
+	position: absolute;
+	height: 70px;
+	width: 400px;
+	top: 2px;
+	left: 90px;
+	}
+
+h1#timeLineBanner 													 /*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/animTimeLine.gif') no-repeat; 		/*This is an animated Time Line gif image*/
+	margin: 0;
+	position: absolute;
+	height: 70px;
+	width: 400px;
+	top: 2px;
+	left: 20px;
+	}
+	
+h1#performanceBanner 												 /*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/animPerformance.gif') no-repeat; 	/*This is an animated Performance gif image*/
+	margin: 0;
+	position: absolute;
+	height: 70px;
+	width: 425px;
+	top: 2px;
+	left: 80px;
+	}
+	
+h1#contactUsBanner 			 									/*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/animContact.gif') no-repeat;			/*This is an animated Contact us gif image*/
+	margin: 0;
+	position: absolute;
+	height: 70px;
+	width: 400px;
+	top: 2px;
+	left: 80px;
+	}
+	
+	
+h1#blueCar /*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/bc70.gif') no-repeat; 					/*This is the blue car image*/
+	margin: 0;
+	position: absolute;
+	height: 100px;
+	width: 460px;
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	}
+	
+h1#modelTCar /*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/modelt70.gif') no-repeat; 				/*This is the Model T Ford Car Image*/
+	margin: 0;
+	height: 100px;
+	width: 460px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	}
+	
+h1#bullittCar /*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/bullittJcar.gif') no-repeat; 			/*This is the Bullitt Car image - without the Banner Text */
+	margin: 0;
+	height: 100px;
+	width: 460px;
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	}
+	
+h1#ascentOfMan 														/*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/ascentMan50.gif') no-repeat; 			/*This is the Smaller Ascent of Man image  */
+	margin: 0;
+	height: 70px;
+	width: 155px;
+	position: absolute;
+	top: 43px;
+	left: 20px;
+	}
+h1#speedometer														/*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/Speedometer70.gif') no-repeat; 			/*This is the Speedometer image  */
+	margin: 0;
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	}
+	
+h1#telephone1 														/*text within will not be shown*/
+	{
+	text-indent: -5000px;
+	background: url('../images/contactUs70.gif') no-repeat; 			/*This is the Telephone image  */
+	margin: 0;
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	}
+
+	
+
+ul.navHeader
+	{
+	list-style-type: none;
+	margin: 0;
+	position: absolute;
+	top: 75px;
+	left: 200px;
+	}
+
+ul.navHeader li 
+	{
+	display: inline;
+	color: blue;
+	}
+
+ul.navHeader li a:hover
+	{
+	border: 1px solid orange ;
+	}
+
+
+ul.navHeader li a
+	{
+	color: black;/*used to be   #1A7E7B*/
+	font-size: 76%;
+	text-decoration:none;
+	text-align: center;
+	text-transform: uppercase:letter-spacing: 2px;
+	padding: 2px 10px;
+	border: 2px solid  #9dd8dd ;/*used to be #9dd8dd*/
+	margin: 0;
+	}
+	
+ul.navSide 
+	{
+	list-style-type: none;
+	position: relative;
+	top: 5px;
+	left: 2px;
+	margin: 10px 0px;
+	}
+
+ul.navSide li a:hover 
+	{
+	border: 1px solid orange ;/*used to be #600*/ 
+	}
+
+ul.navSide li a
+	{
+	color: #1A7E7B;
+	font-size: 76%;
+	text-decoration:none;
+	text-align: Center;
+	text-transform: uppercase: letter-spacing: 2px;
+	padding: 2px 2px;
+	margin: 0 2px;
+	}
+	
+div.sidebar
+	{
+	position:absolute;
+	top: 150px;
+	margin: 10px;
+	}
+	
+#modelTsidebar
+	{
+	position:absolute;
+	top: 50px;
+	left: 25%;
+	margin: 10px;
+	}
+#speedometerSidebar
+	{
+	position:absolute;
+	top: 50px;
+	left: 25%;
+	margin: 10px;
+	}
+
+#bullittSidebar
+	{
+	position:absolute;
+	top: 50px;
+	left: 25%;
+	margin: 10px;
+	}
+
+#ascentOfManSidebar
+	{
+	position:absolute;
+	top: 50px;
+	left: 5%;
+	margin: 10px;
+	}
+
+
+#awardmt a:hover 
+	{
+	border: 1px solid orange ; 
+	}
+
+ul.navFooter
+	{
+	list-style-type: none;
+	margin: 0px 0px 0px 70px;;
+	position: relative;
+	}
+
+ul.navFooter li 
+	{
+	display: inline;
+	color: blue;
+	}
+
+ul.navFooter li a:hover
+	{
+	border: 1px solid orange ;
+	}
+	
+#footerText
+	{
+	font-size: 76%;
+	margin: 0px 0px 5px 0px;
+	position: relative;
+	}
+
+ul.navFooter li a
+	{
+	color: black;/*used to be   #1A7E7B*/
+	font-size: 76%;
+	text-decoration:none;
+	text-align: center;
+	text-transform: uppercase:letter-spacing: 2px;
+	padding: 2px 10px;
+	border: 2px solid  #9dd8dd ;/*used to be #9dd8dd*/
+	margin: 0;
+	}
+	
+a img {border: none; } 													/*This is necessary to remove blue border from images in Internet Explorer*/
+
+a:hover img
+	{
+	border: 1px solid orange
+	} 
+
+h2.sideHeader 
+	{
+	list-style-type: none;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	margin: 0px;
+	}
+
+h2.sideHeader  a:hover 
+	{
+	border: 1px solid orange ;/*used to be #600*/ 
+	}	
+
+h2.sideHeader  a
+	{
+	color: #C30;
+	font-size: 100%;
+	text-decoration:none;
+	text-align: Left;
+	padding: 0;
+	margin: 0;
+	}
+
+p  a
+	{
+	font-size: 100%;
+	text-decoration:none;
+	border-bottom: 1px dotted  #9dd8dd;
+	padding: 0;
+	margin: 0;
+	}
+	
+p  a:hover 
+	{
+	border: 1px solid orange ;
+	}
+p a:visited
+	{
+	color: #C30;
+	}
+span.cCarCol
+	{
+	color: #cc0066 													/*The Color of the Word Cars in the Logo*/
+	} 
+
+img.rightFloat
+	{
+	float: right;
+	margin: 10px 10px 10px 10px;
+	}
+ 
+ div.mainDiv2
+	{
+	margin-left: 25%; 
+	margin-right: 5%; 
+	background: #FAF8F8;
+	}
+	
+p.quot 
+	{font-size: 90%;
+	margin: 0px 50px 5px 20px;
+	}
+ul.timeline
+	{font-size: 90%;
+	margin: 10px 70px 40px 10px;
+	}
+
+ul.timeline li
+	{
+	border: none;
+	margin: 10px 70px 10px 10px;
+	list-style-type: circle;
+	}
+	
+ul.timeline  a:hover 
+	{
+	border: 1px solid orange ;
+	}
+ul.timeline a:visited
+	{
+	color: #C30;
+	}
+	
+ul.timeline  a
+	{
+	font-size: 100%;
+	text-decoration:none;
+	border-bottom: 1px dotted  #9dd8dd;
+	padding: 0;
+	margin: 0;
+	}
+	
+h3.subheader
+	{
+	color: #C30;
+	font-size: 85%;
+	text-align: center;
+	margin: 30px 70px 10px 10px;
+	}
+
+h3.formPage
+	{
+	margin: 10px 50px 20px 20px
+	}
+	
+
+ td
+      {
+   text-align: center;
+    background: #FAF8F8;
+	width:200;
+	height: 150;
+	} 
+ 
+ table
+	{ 
+	background:#FAF8F8;
+	}
+ 
+
+div#ourslideshow
+	{
+	margin: 10px 50px 20px 100px;
+	}
+	
+div#form1
+	{
+	text-align: center;
+	}
+	
+ul.myform
+	{
+    list-style-type: none;
+	font-size: 76%;
+	
+	}
+fieldset
+	{
+	border: none
+	}
+	
+input
+	{
+   
+	font-size: 96%;
+	
+	}
+
